@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+body {
+    color: #575757;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 120%;
+}
+table a {
+    color: #42a5bd;
+}
+table a:hover {
+    color: #507186;
+    text-decoration: none;
+}
+.glyphicon-question-sign {
+    font-size: 20px;
+    color: #e95420;
+}
+.glyphicon-question-sign:hover {
+    font-size: 20px;
+    color: #575757;
+}
+.action-button {
+    background: none;
+    border: none;
+    float: left;
+}
+.action-button:hover,
+.action-button:focus {
+    background: none;
+    border: none;
+    outline: none;
+}
+/*modal*/
+
+.modal-title {
+    color: #e95420;
+}
+.modal-footer .btn-default {
+    background: #e95420;
+    border: #e95420;
+}
+/*data table*/
+
+.dataTable {
+    font-size: 12px;
+    margin-left: -15px;
+}
+.dataTable th,
+.dataTable thead th {
+    background: #eeeeee;
+    color: #e95420;
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+table.dataTable.display tbody tr.odd {
+    background-color: #f7f7f7;
+}
+table.dataTable thead th, table.dataTable thead td {
+  /*padding: 10px;*/
+}
+table.dataTable.display tbody td {
+    border-top: 1px solid #eeeeee;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+table.dataTable thead th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #eeeeee !important;
+    font-weight: 500 !important;
+}
+table.dataTable tbody tr.selected,
+table.dataTable.stripe tbody tr.odd.selected,
+table.dataTable.display tbody tr.odd.selected {
+    background-color: #eeeeee;
+    color: #000000;
+}
+table.dataTable.no-footer {
+    border-bottom: 1px solid #eeeeee !important;
+    margin-bottom: 20px;
+}
+.dataTable li{
+  list-style-type: none;
+  margin-left: 9px;
+  position: relative;
+}
+.dataTable li:before{
+  content:"•";
+  font-size: 14px;
+  left: -8px;
+  position: absolute;
+}
+.dataTables_wrapper .dataTables_filter {
+    color: #575757;
+}
+.dataTables_wrapper .dataTables_length {
+    color: #333333;
+}
+.sidebar {
+    background: #f9f9f9;
+    border: none;
+    font-size: 13px;
+    margin-top: 39px;
+}
+.well {
+    background-color: #f9f9f9;
+    border: none;
+    box-shadow: none;
+}
+/*inputs*/
+
+.selectize-input {
+    border: 3px solid #eeeeee;
+}
+.checkbox label {
+    min-height: 15px;
+}
+.control-label {
+    color: #e95420;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 3px solid #eeeeee;
+    padding: 5px 3px;
+}
+.dataTables_filter {
+    margin-top: -36px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #eeeeee;
+    border: 1px solid #eeeeee !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #575757;
+    border: 1px solid #575757;
+}
+.dataTables_length label {
+    font-weight: normal;
+    color: #575757;
+}
